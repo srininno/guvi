@@ -1,6 +1,6 @@
-a=int(raw_input("Enter a number"))
+a=int(raw_input())
 if(a>0):
-    print("Positive")
+	print("Positive")
 elif(a<o):
 	print("Negative")
 else:
