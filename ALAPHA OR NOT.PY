@@ -1,5 +1,5 @@
-ch = input("Enter a ALPHABET: ")
+ch = str(raw_input())
 if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
-		print(ch, "is an ALPHABET")
+	print("Alphabet")
 else:
-	print(ch, "is not an ALPHABET")
+	print("No")
