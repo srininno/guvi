@@ -1,6 +1,7 @@
-a = int(raw_input())
-b = int(raw_input())
-c = int(raw_input())
+#srinivas
+a = int(raw_input()).split()
+b = int(raw_input()).split()
+c = int(raw_input()).split()
 if(a>=b) and (a>c):
 	largest=a
 elif(b>=a) and (b>c):
